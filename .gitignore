@@ -1,0 +1,11 @@
+## Environment folder / variables
+
+venv
+.env
+.vscode
+my-crontab
+csv_generate.py
+__pycache__/
+
+## Videos
+videos
