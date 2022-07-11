@@ -1,6 +1,6 @@
 # Slam Dunk screenshots bot.
 
-A simple twitter bot that post Slam Dunk anime screenshots in order
+A simple twitter bot that post Slam Dunk anime screenshots in order [@sdscreenshotbot](https://twitter.com/sdscreenshotbot)
 
 ## Setup
 
