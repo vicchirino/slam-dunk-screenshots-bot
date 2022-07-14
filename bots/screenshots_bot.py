@@ -36,7 +36,7 @@ def main():
           file = open(image, 'rb')
         except:
           print(f"Image file not found {image}")
-          frame_id = 0
+          frame_id = 1
           episode += 1
           continue
 
