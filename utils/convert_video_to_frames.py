@@ -1,7 +1,7 @@
 import cv2
 
-framesPath = "/Users/victorchirino/Projects/slam-dunk-bot/frames/"
-videosFolderPath = "/Users/victorchirino/Projects/slam-dunk-bot/videos/"
+framesPath = "/Users/victorchirino/Projects/slam-dunk-screenshots-bot/frames/"
+videosFolderPath = "/Users/victorchirino/Projects/slam-dunk-screenshots-bot/videos/"
 
 def extractImages(episode):
     count = 1
@@ -28,11 +28,11 @@ def extractImages(episode):
           
 
 def main():
-    episode = 1
+    episode = 13
     while True:
         if not extractImages(episode):
           episode += 1
-        if episode > 12:
+        if episode > 25:
           break
         continue
 
